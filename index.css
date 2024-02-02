@@ -1,0 +1,75 @@
+body {
+    width: 1440px;
+    width: 100%;
+    background-color: hsl(0, 0%, 8%);
+    justify-content: center;
+    font-size: 14px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    
+    width: 320px;
+    height: 420px;
+    border-radius: 8px;
+    
+    margin: auto;
+    margin-top: 50px;
+    
+    display: flex;
+    text-align: center;
+}
+    
+.content {
+    align-self:center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.avatar-jessica {
+    border-radius: 50%;
+}
+
+.J {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.L {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);;
+}
+
+.J,.K {
+  height: 5px;
+  border: 1px solid hsl(263, 55, 52%);
+}
+
+.F {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: 0;
+    border-radius: 4px;
+    width: 280px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
